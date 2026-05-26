@@ -17,25 +17,25 @@ class Ssg < Formula
   # license matches reality, and an MIT claim on a proprietary binary
   # would expose the project to license-misrepresentation risk.
   license :cannot_represent
-  version "0.29.117"
+  version "0.29.124"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.117/ssg-darwin-arm64.tar.gz"
-      sha256 "b4679e5033cfc99c5cd03fdd960e3baaa855b842cf21a77ed9e837065884df8a"
+      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.124/ssg-darwin-arm64.tar.gz"
+      sha256 "60c1b8183bf2e3035f4ee72f8f11fe0c763d4f036147ba90765d696e13cdd21f"
     else
-      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.117/ssg-darwin-x64.tar.gz"
-      sha256 "fd3b84ba17e36e2c3c8a61cbbc0a2c6586d5dc18f86e76c5bc031fcefd380772"
+      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.124/ssg-darwin-x64.tar.gz"
+      sha256 "c7ebdb2e0bef55579692b516cb7443923223f8249bf5e7103ae443ffa5a4c91a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.117/ssg-linux-arm64.tar.gz"
-      sha256 "d065176b2479bdb2ac0f143f0e9fbc255ec03380ace03e93084a34e8fe8eb393"
+      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.124/ssg-linux-arm64.tar.gz"
+      sha256 "70cf7b0b434dd9230d463a7fadf8a0d29a09396b6af7ac7c3ad7ef13f05d1730"
     else
-      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.117/ssg-linux-x64.tar.gz"
-      sha256 "41fd04ee93a3e0e60e0270ae5a9717cc51da46b42d2061de24e441459e660080"
+      url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.124/ssg-linux-x64.tar.gz"
+      sha256 "5fe714abdc0a48868f79169eb7ef31fe23b03da5b3067fc88e25cf708740e683"
     end
   end
 
