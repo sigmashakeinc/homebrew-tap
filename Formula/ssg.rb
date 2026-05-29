@@ -32,10 +32,10 @@ class Ssg < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.136/ssg-linux-arm64.tar.gz"
-      sha256 "18149f72a14328479447f410dd0583199b4adfccfb8f835036698611e1a5daaa"
+      sha256 "bf94028348adc1cfecc1a40237c60b8489ee75c7050e0a52bbf196bd1aee5deb"
     else
       url "https://github.com/sigmashakeinc/ssg/releases/download/v0.29.136/ssg-linux-x64.tar.gz"
-      sha256 "672c18187cdbf51c35dbf5247a93f43fa40ce9195bbd2fed5309931149625f84"
+      sha256 "391ccf389167382a4440682efd45521718a440195be905cc4f724fc8b21ed737"
     end
   end
 
